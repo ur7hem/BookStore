@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.image {
+    margin: 0 auto;
+    width: 710px;
+}
+
+.foto {
+    width: 350px;
+}
+
+.text1 {
+    width: 800px;
+    margin: 15px auto;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.foto1 {
+    width: 400px;
+}
+
+.ch2 {
+    width: 1000px;
+    display: flex;
+    margin: 10px auto;
+}
+
+.text2 {
+    padding: 20px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.Books {
+    display: block;
+    text-align: center;
+}
+
+.end {
+    width: 1500px;
+    height: 1500px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #585757;
+    position: fixed; /* Установите навигационную панель в фиксированное положение */
+    top: 0; /* Расположите навигационную панель в верхней части страницы */
+    width: 100%;
+}
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+.search {
+    width: 600px;
+    height: 23px;
+    border-radius: 10px;
+}

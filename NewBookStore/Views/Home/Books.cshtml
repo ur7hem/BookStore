@@ -1,0 +1,93 @@
+﻿@{
+	Layout = null;
+
+}
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Электронная библиотека</title>
+	<link rel="stylesheet" type="text/css" href="~/css/books.css">
+</head>
+<body>
+	<div class="navbar">
+		<a href="@Url.Action("Index", "Home")">Главная</a>
+		<a href="@Url.Action("Books", "Home")">Все книги</a>
+		<a><input class="search" type="search"></a>
+		<a href="@Url.Action("LogInForm", "Home")">Войти</a>
+		<a href="@Url.Action("Registration", "Home")">Регистрация</a>
+	</div>
+	<h1>Наши книги</h1>
+
+	<div class="menu">
+		<label class="filter">Жанр книги</label>
+		<p class="filter"><input class="p5" type="text"></p>
+		<label class="filter">Год публикации</label>
+		<p class="filter">
+			<div class="year">
+				<p class="year1">C </p>
+				<select class="choice1" id="choice1">
+					<script>
+						const select = document.getElementById("choice1");
+						for (let i = 1970; i <2025 ; i++){
+						const option = document.createElement('option');
+						option.text = i;
+						select.appendChild(option);
+						}
+					</script>
+				</select>
+				<p class="year1"> по </p>
+				<select class="choice1" id="choice2">
+					<script>
+						const select1 = document.getElementById("choice2");
+						for (let i = 1970; i <2025 ; i++){
+						const option = document.createElement('option');
+						option.text = i;
+						select1.appendChild(option);
+						}
+					</script>
+				</select>
+			</div>
+		</p>
+
+
+		<label class="filter">Тип переплета</label>
+		<p class="filter">
+			<select class="choice">
+				<option value="">-- Выберите переплет --</option>
+				<option value="tverdiy">Твердый</option>
+				<option value="myagkiy">Мягкий</option>
+				<option value="elekt">Электронный вариант</option>
+			</select>
+		</p>
+		<label class="filter">Язык</label>
+		<p class="filter">
+			<select class="choice">
+				<option value="">-- Выберите язык --</option>
+				<option value="russian">Русский</option>
+				<option value="ukraine">Украинский</option>
+				<option value="english">Английский</option>
+			</select>
+		</p>
+		<label class="filter">Цена</label>
+		<input type="range" id="volume" name="volume" min="0" max="11" />
+		<p class="filter"><input class="p5" type="text"></p>
+		<a href="" class="filter">Добавить в корзину</a>
+	</div>
+
+	<div class="booksAll">
+	@for (int i = 0; i < ViewBag.Knizka.Length; i++)
+	{
+	<div class="book" id="book">
+		<p>@ViewBag.Knizka[i].Name</p>
+		<img class="image" src="~/jpg/book.jpg">
+		<p class="p1">@ViewBag.Knizka[i].Description</p>
+		<a href="@Url.Action("OneBook", "Home")">О книге</a>
+	</div>
+	}
+	</div>
+
+	<script src="~/js/Books.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+﻿@{
+	Layout = null;
+
+}
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="~/css/LogInForm.css">
+	<title>Электронная библиотека</title>
+</head>
+<body>
+	<div class="navbar">
+		<a href="@Url.Action("Index", "Home")">Главная</a>
+		<a href="@Url.Action("Books", "Home")">Все книги</a>
+		<a><input class="search" type="search"></a>
+		<a href="@Url.Action("LogInForm", "Home")">Войти</a>
+		<a href="@Url.Action("Registration", "Home")">Регистрация</a>
+	</div>
+	<div class="maine">
+		<h2>Вход в систему</h2>
+		<label class="reg">Введите логин (e-mail)</label>
+		<p class="reg"><input class="p5" id="email" type="email" value="mail1@domaine.com" required></p>
+		<label class="reg">Введите пароль</label>
+		<p class="reg"><input class="p5" id="password" type="password" required></p>
+		<button class="login" id="submitLogin">Войти</button>
+		<button id="getData">Данные</button>
+	</div>
+
+</body>
+<script src="~/js/LogInForm.js"></script>
+</html>

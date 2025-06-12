@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\My data\\NewBookStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5D9CE3-86C3-4DCB-8124-F1D3123E55A2}|NewBookStore\\NewBookStore.csproj|c:\\my data\\newbookstore\\newbookstore\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5D9CE3-86C3-4DCB-8124-F1D3123E55A2}|NewBookStore\\NewBookStore.csproj|solutionrelative:newbookstore\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5D9CE3-86C3-4DCB-8124-F1D3123E55A2}|NewBookStore\\NewBookStore.csproj|c:\\my data\\newbookstore\\newbookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5D9CE3-86C3-4DCB-8124-F1D3123E55A2}|NewBookStore\\NewBookStore.csproj|solutionrelative:newbookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5D9CE3-86C3-4DCB-8124-F1D3123E55A2}|NewBookStore\\NewBookStore.csproj|c:\\my data\\newbookstore\\newbookstore\\wwwroot\\js\\loginform.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7B5D9CE3-86C3-4DCB-8124-F1D3123E55A2}|NewBookStore\\NewBookStore.csproj|solutionrelative:newbookstore\\wwwroot\\js\\loginform.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5D9CE3-86C3-4DCB-8124-F1D3123E55A2}|NewBookStore\\NewBookStore.csproj|c:\\my data\\newbookstore\\newbookstore\\models\\getdatarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5D9CE3-86C3-4DCB-8124-F1D3123E55A2}|NewBookStore\\NewBookStore.csproj|solutionrelative:newbookstore\\models\\getdatarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5D9CE3-86C3-4DCB-8124-F1D3123E55A2}|NewBookStore\\NewBookStore.csproj|c:\\my data\\newbookstore\\newbookstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5D9CE3-86C3-4DCB-8124-F1D3123E55A2}|NewBookStore\\NewBookStore.csproj|solutionrelative:newbookstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5D9CE3-86C3-4DCB-8124-F1D3123E55A2}|NewBookStore\\NewBookStore.csproj|c:\\my data\\newbookstore\\newbookstore\\views\\home\\loginform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B5D9CE3-86C3-4DCB-8124-F1D3123E55A2}|NewBookStore\\NewBookStore.csproj|solutionrelative:newbookstore\\views\\home\\loginform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\My data\\NewBookStore\\NewBookStore\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "NewBookStore\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\My data\\NewBookStore\\NewBookStore\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "NewBookStore\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:04:50.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\My data\\NewBookStore\\NewBookStore\\Program.cs",
+              "RelativeDocumentMoniker": "NewBookStore\\Program.cs",
+              "ToolTip": "C:\\My data\\NewBookStore\\NewBookStore\\Program.cs",
+              "RelativeToolTip": "NewBookStore\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T11:45:17.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LogInForm.cshtml",
+              "DocumentMoniker": "C:\\My data\\NewBookStore\\NewBookStore\\Views\\Home\\LogInForm.cshtml",
+              "RelativeDocumentMoniker": "NewBookStore\\Views\\Home\\LogInForm.cshtml",
+              "ToolTip": "C:\\My data\\NewBookStore\\NewBookStore\\Views\\Home\\LogInForm.cshtml",
+              "RelativeToolTip": "NewBookStore\\Views\\Home\\LogInForm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T09:14:32.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\My data\\NewBookStore\\NewBookStore\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "NewBookStore\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\My data\\NewBookStore\\NewBookStore\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "NewBookStore\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T08:56:55.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogInForm.js",
+              "DocumentMoniker": "C:\\My data\\NewBookStore\\NewBookStore\\wwwroot\\js\\LogInForm.js",
+              "RelativeDocumentMoniker": "NewBookStore\\wwwroot\\js\\LogInForm.js",
+              "ToolTip": "C:\\My data\\NewBookStore\\NewBookStore\\wwwroot\\js\\LogInForm.js",
+              "RelativeToolTip": "NewBookStore\\wwwroot\\js\\LogInForm.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-09T10:10:13.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetDataRequest.cs",
+              "DocumentMoniker": "C:\\My data\\NewBookStore\\NewBookStore\\Models\\GetDataRequest.cs",
+              "RelativeDocumentMoniker": "NewBookStore\\Models\\GetDataRequest.cs",
+              "ToolTip": "C:\\My data\\NewBookStore\\NewBookStore\\Models\\GetDataRequest.cs",
+              "RelativeToolTip": "NewBookStore\\Models\\GetDataRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:04:35.624Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

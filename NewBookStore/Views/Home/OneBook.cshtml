@@ -1,0 +1,112 @@
+﻿@{
+	Layout = null;
+
+}
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="~/css/OneBook.css">
+	<script src="~/js/Carousel.js" defer></script>
+	<title>Электронная библиотека</title>
+</head>
+<body>
+	<div class="navbar">
+		<a href="@Url.Action("Index", "Home")">Главная</a>
+		<a href="@Url.Action("Books", "Home")">Все книги</a>
+		<a><input class="search" type="search"></a>
+		<a href="@Url.Action("LogInForm", "Home")">Войти</a>
+		<a href="@Url.Action("Registration", "Home")">Регистрация</a>
+	</div>
+
+	<h1 class="h1">Заказать книгу</h1>
+	<div class="all">
+		<div class="zak">
+			<div class="carousel"></div>
+			<button class="carousel next" onclick="onNext();">&#187;</button>
+			<button class="carousel prev" onclick="onPrev();">&#171;</button>
+			<ul>
+				<li class="lis" data-active><img class="image" src="~/jpg/book.jpg"></li>
+				<li class="lis"><img class="image" src="~/jpg/book-1.jpg"></li>
+				<li class="lis"><img class="image" src="~/jpg/book-2.jpg"></li>
+			</ul>
+		</div>
+		<p>Название книги</p>
+		<p class="p1">
+			Слышали о том, что мысль материальна? Если вам кажется, что в жизни нужно что-то менять, сначала хорошенько это обдумайте, затем вдохновитесь, а потом — решительно действуйте.
+			В голове при этом держите свою цель и позитивный настрой. Чтобы его создать и укрепить, мы собрали огромный список мудрых советов и мотивирующих цитат. Мысли этих людей точно заслуживают внимания, а слова — доверия.
+		</p>
+		<label class="label1">Жанр: Фантастика.</label>
+		<label class="label1">Серия: О всем.</label>
+		<label class="label1">Издательство: Самиздат 1995 г.</label>
+		<label class="label1">Автор: Вася</label>
+		<label class="label1">Цена ???</label>
+		<button class="button1" onclick="showPopup()">Заказать книгу</button>
+	</div>
+	<h2 class="h1">Коментарии</h2>
+	<div class="comment1">
+		<img class="image1" src="~/jpg/user.jpg">
+		<p class="p3">15.03.2025 kjdfhksjdf</p>
+		<p class="p4">
+			Уже было много споров по этому поводу, но все же мы пришли к выводу, что для того, чтобы понять, что блюдо пересолено-пережарено и просто невкусное/несъедобное, до конца
+			доедать его не обязательно, вполне достаточно попробовать. Это право каждого человека - оценить книгу так, как он считает правильным. Точно так же, как каждый пользователь вправе
+			поставить плюс или минус любому комментарию. И да, мы все разные. То, что кому-то читается хорошо, другому встает поперек горла с первых строк.
+		</p>
+
+	</div>
+	<div class="comment1">
+		<img class="image1" src="~/jpg/user.jpg">
+		<p class="p3">12.03.2025 ksdfhsd sdfs</p>
+		<p class="p4">
+			На счет "добрых намерений" в отношении людей, которые  позволяют себе проявить хамство ( ИМХО это еще одна форма его проявления)  - это не тот путь которым нужно следовать литературному клубу.
+			Не принимая никаких мер в описываемом мной случае, ИМХО - мы всего лишь поощряем дилетанство и право на жизнь комментариев из серии " много буков - ни асилил" ... Как я выше писала - явление родственное
+			комментариям типа "Storm of applause Оценка 10"
+		</p>
+
+	</div>
+	<div class="comment1">
+		<img class="image1" src="~/jpg/user.jpg">
+		<p class="p3">11.03.2025 kxdfjsv ddsfwsd</p>
+		<p class="p4">
+			Вам не кажется, что сегодня, такими мелочами и ерундовинами,  Вы формируете завтра своего сайта?
+			Будет ли через год-два грамотный читатель (надеюсь именно таких хотелось бы привлекать и удерживать на сайте) мотивирован оставлять свой информативный комментарий среди этих дрыгающихся картинок?
+			Опять же - образовательная функция литературного сайта ( о чем говорила выше)   - может быть имеет смысл стимулировать читателя  к развитию, повышению уровня культуры...
+		</p>
+
+	</div>
+	<div class="comment1">
+		<img class="image1" src="~/jpg/user.jpg">
+		<p class="p3">08.03.2025 kisddsf sdfwfw</p>
+		<p class="p4">
+			ВОт представьте себе  - пришел читатель на сайт Литлайф, он ему очень нравится, библиотека шикарная, а в комментариях книг в основном смайлы и лапидарные оценки в стиле вышеописанного ....
+			Какова вероятность, что этот читатель (будем верить, что он не истероид, стремящийся привлечь к себе внимание любым путем) решит оставить адекватный вербальный отзыв о книге?
+		</p>
+	</div>
+
+
+
+
+	<div id="popup-overlay">
+		<div id="popup">
+			<h3>Оформление заказа</h3>
+			<label class="p2">Ф.И.О</label>
+			<p class="p2"><input class="p5" type="text" id="names"></p>
+			<label class="p2">Адрес доставки</label>
+			<p class="p2"><input class="p5" type="text" id="adress"></p>
+			<label class="p2">Номер телефона</label>
+			<p class="p2"><input class="p5" type="tel" id="phone"></p>
+			<label class="p2">e-mail</label>
+			<p class="p2"><input class="p5" type="email" id="mail"></p>
+			<label class="p2">Способ доставки</label>
+			<p class="p2"><input class="p5" type="text" id="pochta"></p>
+			<label class="p2">Сумма заказа 150 тугриков</label>
+			<button class="button2" onclick="hidePopup()">Оформить заказ</button>
+		</div>
+	</div>
+	<script src="~/js/OneBook.js"></script>
+
+	</div>
+
+</body>
+
+</html>

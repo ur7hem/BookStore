@@ -1,0 +1,102 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.book {
+    width: 310px; /*29.05*/
+    height: 400px;
+    display: block;
+    float: left;
+    font-size: 14px;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 5px 10px 20px 10px;
+    box-shadow: 0 5px 10px #ccc;
+    transition: 1s;
+    margin: 0 5px 5px 0;
+    text-align: center;
+    background-color: white;
+}
+
+.image {
+    height: 250px;
+}
+
+.book:hover {
+    transform: scale(1.2);
+}
+
+.p1 {
+    height: 80px;
+    overflow: hidden;
+    margin: 0 0 15px 0;
+    text-align: justify;
+    text-indent: 15px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #585757;
+    position: fixed; /* Установите навигационную панель в фиксированное положение */
+    top: 0; /* Расположите навигационную панель в верхней части страницы */
+    left: 0;
+    width: 100%;
+}
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+h1 {
+    padding: 50px 0 0 0;
+    text-align: center;
+}
+
+.search {
+    width: 600px;
+    height: 23px;
+    border-radius: 10px;
+}
+
+.menu {
+    width: 15%;
+    display: block;
+    float: left;
+    padding: 0 0 0 30px;
+    height: 100%;
+}
+
+.choice1 {
+    width: 65px;
+    height: 22px;
+    padding: 0 0 0 5px;
+    margin: 0 5px 0 5px;
+}
+
+.choice {
+    width: 170px;
+    height: 22px;
+}
+
+.year {
+    display: flex;
+}
+
+.year1 {
+    margin: 0;
+}
+
+.booksAll { /*29.05*/
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 17%;
+}

@@ -1,0 +1,73 @@
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\bin\Debug\net8.0\appsettings.json
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\bin\Debug\net8.0\NewBookStore.staticwebassets.runtime.json
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\bin\Debug\net8.0\NewBookStore.staticwebassets.endpoints.json
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\bin\Debug\net8.0\NewBookStore.exe
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\bin\Debug\net8.0\NewBookStore.deps.json
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\bin\Debug\net8.0\NewBookStore.runtimeconfig.json
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\bin\Debug\net8.0\NewBookStore.dll
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\bin\Debug\net8.0\NewBookStore.pdb
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\NewBookStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\NewBookStore.AssemblyInfoInputs.cache
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\NewBookStore.AssemblyInfo.cs
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\NewBookStore.csproj.CoreCompileInputs.cache
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\NewBookStore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\NewBookStore.RazorAssemblyInfo.cache
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\NewBookStore.RazorAssemblyInfo.cs
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\scopedcss\bundle\NewBookStore.styles.css
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\scopedcss\projectbundle\NewBookStore.bundle.scp.css
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\staticwebassets\msbuild.NewBookStore.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\staticwebassets\msbuild.NewBookStore.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\staticwebassets\msbuild.build.NewBookStore.props
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NewBookStore.props
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NewBookStore.props
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\NewBookStore.dll
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\refint\NewBookStore.dll
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\NewBookStore.pdb
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\NewBookStore.genruntimeconfig.cache
+C:\Users\ur7he\source\repos\NewBookStore\NewBookStore\obj\Debug\net8.0\ref\NewBookStore.dll
+C:\My data\NewBookStore\NewBookStore\bin\Debug\net8.0\appsettings.Development.json
+C:\My data\NewBookStore\NewBookStore\bin\Debug\net8.0\appsettings.json
+C:\My data\NewBookStore\NewBookStore\bin\Debug\net8.0\NewBookStore.staticwebassets.endpoints.json
+C:\My data\NewBookStore\NewBookStore\bin\Debug\net8.0\NewBookStore.staticwebassets.runtime.json
+C:\My data\NewBookStore\NewBookStore\bin\Debug\net8.0\NewBookStore.exe
+C:\My data\NewBookStore\NewBookStore\bin\Debug\net8.0\NewBookStore.deps.json
+C:\My data\NewBookStore\NewBookStore\bin\Debug\net8.0\NewBookStore.runtimeconfig.json
+C:\My data\NewBookStore\NewBookStore\bin\Debug\net8.0\NewBookStore.dll
+C:\My data\NewBookStore\NewBookStore\bin\Debug\net8.0\NewBookStore.pdb
+C:\My data\NewBookStore\NewBookStore\obj\Debug\net8.0\NewBookStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\My data\NewBookStore\NewBookStore\obj\Debug\net8.0\NewBookStore.AssemblyInfoInputs.cache
+C:\My data\NewBookStore\NewBookStore\obj\Debug\net8.0\NewBookStore.AssemblyInfo.cs
+C:\My data\NewBookStore\NewBookStore\obj\Debug\net8.0\NewBookStore.csproj.CoreCompileInputs.cache
+C:\My data\NewBookStore\NewBookStore\obj\Debug\net8.0\NewBookStore.MvcApplicationPartsAssemblyInfo.cache
+C:\My data\NewBookStore\NewBookStore\obj\Debug\net8.0\NewBookStore.RazorAssemblyInfo.cache
+C:\My data\NewBookStore\NewBookStore\obj\Debug\net8.0\NewBookStore.RazorAssemblyInfo.cs
+C:\My data\NewBookStore\NewBookStore\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\My data\NewBookStore\NewBookStore\obj\Debug\net8.0\scopedcss\bundle\NewBookStore.styles.css
+C:\My data\NewBookStore\NewBookStore\obj\Debug\net8.0\scopedcss\projectbundle\NewBookStore.bundle.scp.css
+C:\My data\NewBookStore\NewBookStore\obj\Debug\net8.0\staticwebassets.build.json
+C:\My data\NewBookStore\NewBookStore\obj\Debug\net8.0\staticwebassets.development.json
+C:\My data\NewBookStore\NewBookStore\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\My data\NewBookStore\NewBookStore\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\My data\NewBookStore\NewBookStore\obj\Debug\net8.0\NewBookStore.dll
+C:\My data\NewBookStore\NewBookStore\obj\Debug\net8.0\refint\NewBookStore.dll
+C:\My data\NewBookStore\NewBookStore\obj\Debug\net8.0\NewBookStore.pdb
+C:\My data\NewBookStore\NewBookStore\obj\Debug\net8.0\NewBookStore.genruntimeconfig.cache
+C:\My data\NewBookStore\NewBookStore\obj\Debug\net8.0\ref\NewBookStore.dll
+C:\My data\NewBookStore\NewBookStore\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\My data\NewBookStore\NewBookStore\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\My data\NewBookStore\NewBookStore\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\My data\NewBookStore\NewBookStore\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\My data\NewBookStore\NewBookStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\My data\NewBookStore\NewBookStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\My data\NewBookStore\NewBookStore\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\My data\NewBookStore\NewBookStore\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\My data\NewBookStore\NewBookStore\obj\Debug\net8.0\NewBookStore.csproj.AssemblyReference.cache
+C:\My data\NewBookStore\NewBookStore\obj\Debug\net8.0\NewBookS.DEC02C3B.Up2Date
+C:\My data\NewBookStore\NewBookStore\obj\Debug\net8.0\staticwebassets.build.json.cache
