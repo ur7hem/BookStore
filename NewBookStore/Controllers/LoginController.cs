@@ -1,11 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using NewBookStore.Models;
-using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using BookStoreRepositorys;
 
 namespace NewBookStore.Controllers;
 
@@ -52,7 +51,7 @@ public class LoginController : Controller
                     return BadRequest(ModelState);
                 }
 
-                if (request.Password == allUser[i].Pussword)
+                if (request.Password == allUser[i].Password)
                 {
                     var claims = new List<Claim> { new Claim(ClaimTypes.Email, request.Email) };
                     // создаем JWT-токен

@@ -1,0 +1,103 @@
+﻿.navbar {
+    overflow: hidden;
+    background-color: #585757;
+    position: fixed; /* Установите навигационную панель в фиксированное положение */
+    top: 0; /* Расположите навигационную панель в верхней части страницы */
+    left: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.search {
+    width: 600px;
+    height: 23px;
+    border-radius: 10px;
+}
+
+h1 {
+    padding: 50px 0 0 0;
+    text-align: center;
+}
+
+.book {
+    width: 700px;
+    height: 380px;
+    border: medium solid black;
+    margin: 160px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #8e8d8d;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.ask {
+    width: 200px;
+    border: 1px solid #525151;
+    border-radius: 5px;
+}
+
+.answer {
+    width: 500px;
+    border: 1px solid #525151;
+    border-radius: 5px;
+}
+
+.input {
+    border: 0;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.ask1 {
+    vertical-align: top;
+}
+
+.answer1 {
+    width: 500px;
+    height: 120px;
+    border: 1px solid #525151;
+    border-radius: 5px;
+}
+
+.input1 {
+    border: 0;
+    border-radius: 5px;
+    width: 500px;
+    height: 120px;
+}
+
+.user {
+    width: 700px;
+    height: 200px;
+    border: medium solid black;
+    margin: 80px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #8e8d8d;
+    /*    margin: 0 auto;*/
+}
+
+.save {
+    width: 100px;
+    border-radius: 7px;
+    text-align: center;
+    margin: 20px 300px 0 300px;
+}
+
+.save:active {
+    background-color: rgb(100, 100, 100);
+}

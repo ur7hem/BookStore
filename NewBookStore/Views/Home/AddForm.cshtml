@@ -1,0 +1,75 @@
+﻿@{
+	Layout = null;
+
+}
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="~/css/AddForm.css">
+	<title>Электронная библиотека</title>
+</head>
+<body>
+	<div class="navbar">
+		<a href="@Url.Action("Index", "Home")">Главная</a>
+		<a href="@Url.Action("Books", "Home")">Все книги</a>
+		<a href="@Url.Action("AddForm", "Home")">Добавить</a>
+		<a><input class="search" type="search"></a>
+		<a href="@Url.Action("LogInForm", "Home")">Войти</a>
+		<a href="@Url.Action("Registration", "Home")">Регистрация</a>
+	</div>
+	<h1>Добавление данных</h1>
+	<div class="book">
+		<h2>Добавить книгу</h2>
+		<table>
+			<tr>
+				<td class="ask">Название книги:</td>
+				<td class="answer"><input class="input" id="name"></td>
+			</tr>
+			<tr>
+				<td class="ask">Автор книги:</td>
+				<td class="answer"><input class="input" id="author"></td>
+			</tr>
+			<tr>
+				<td class="ask">Жанр книги:</td>
+				<td class="answer"><input class="input" id="genre"></td>
+			</tr>
+			<tr>
+				<td class="ask">Название издательства:</td>
+				<td class="answer"><input class="input" id="publishingHouse"></td>
+			</tr>
+			<tr>
+				<td class="ask">Год издания:</td>
+				<td class="answer"><input class="input" id="yearOfPublication"></td>
+			</tr>
+			<tr>
+				<td class="ask1">Краткое описание:</td>
+				<td class="answer1"><textarea class="input1" id="description"></textarea></td>
+			</tr>
+		</table>
+		<button class="save" id="saveBook">Сохранить</button>
+	</div>
+	<div class="user">
+		<h2>Добавить читателя</h2>
+		<table>
+			<tr>
+				<td class="ask">Имя читателя e-mail:</td>
+				<td class="answer"><input class="input"></td>
+			</tr>
+			<tr>
+				<td class="ask">Пароль:</td>
+				<td class="answer"><input class="input"></td>
+			</tr>
+			<tr>
+				<td class="ask">Подтверждение пароля:</td>
+				<td class="answer"><input class="input"></td>
+			</tr>
+		</table>
+		<button class="save">Сохранить</button>
+	</div>
+</body>
+
+<script src="~/js/AddBook.js"></script>
+
+
+</html>

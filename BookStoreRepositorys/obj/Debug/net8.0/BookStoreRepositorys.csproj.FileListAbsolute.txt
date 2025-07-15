@@ -1,0 +1,16 @@
+C:\My data\BookStore\BookStoreRepositorys\bin\Debug\net8.0\BookStoreRepositorys.deps.json
+C:\My data\BookStore\BookStoreRepositorys\bin\Debug\net8.0\BookStoreRepositorys.dll
+C:\My data\BookStore\BookStoreRepositorys\bin\Debug\net8.0\BookStoreRepositorys.pdb
+C:\My data\BookStore\BookStoreRepositorys\bin\Debug\net8.0\BookStoreDb.dll
+C:\My data\BookStore\BookStoreRepositorys\bin\Debug\net8.0\BookStoreDb.pdb
+C:\My data\BookStore\BookStoreRepositorys\obj\Debug\net8.0\BookStoreRepositorys.csproj.AssemblyReference.cache
+C:\My data\BookStore\BookStoreRepositorys\obj\Debug\net8.0\BookStoreRepositorys.GeneratedMSBuildEditorConfig.editorconfig
+C:\My data\BookStore\BookStoreRepositorys\obj\Debug\net8.0\BookStoreRepositorys.AssemblyInfoInputs.cache
+C:\My data\BookStore\BookStoreRepositorys\obj\Debug\net8.0\BookStoreRepositorys.AssemblyInfo.cs
+C:\My data\BookStore\BookStoreRepositorys\obj\Debug\net8.0\BookStoreRepositorys.csproj.CoreCompileInputs.cache
+C:\My data\BookStore\BookStoreRepositorys\obj\Debug\net8.0\BookStoreRepositorys.sourcelink.json
+C:\My data\BookStore\BookStoreRepositorys\obj\Debug\net8.0\BookStor.FFF89DBB.Up2Date
+C:\My data\BookStore\BookStoreRepositorys\obj\Debug\net8.0\BookStoreRepositorys.dll
+C:\My data\BookStore\BookStoreRepositorys\obj\Debug\net8.0\refint\BookStoreRepositorys.dll
+C:\My data\BookStore\BookStoreRepositorys\obj\Debug\net8.0\BookStoreRepositorys.pdb
+C:\My data\BookStore\BookStoreRepositorys\obj\Debug\net8.0\ref\BookStoreRepositorys.dll
