@@ -30,9 +30,15 @@
 				<td class="ask">Автор книги:</td>
 				<td class="answer"><input class="input" id="author"></td>
 			</tr>
-			<tr>
+			<tr> 
 				<td class="ask">Жанр книги:</td>
-				<td class="answer"><input class="input" id="genre"></td>
+				<td class="answer"><select class="input" id="genreId">
+						@for (int i = 0; i < ViewBag.Genre.Length; i++)
+						{
+							<option value="@ViewBag.Genre[i].Id">@ViewBag.Genre[i].GenreName</option>
+						}
+						</select>
+				</td>
 			</tr>
 			<tr>
 				<td class="ask">Название издательства:</td>
@@ -53,23 +59,28 @@
 		<h2>Добавить читателя</h2>
 		<table>
 			<tr>
-				<td class="ask">Имя читателя e-mail:</td>
-				<td class="answer"><input class="input"></td>
+				<td class="ask">Имя читателя:</td>
+				<td class="answer"><input class="input" id="userName"></td>
+			</tr>
+			<tr>
+				<td class="ask">E-mail:</td>
+				<td class="answer"><input class="input" id="email"></td>
 			</tr>
 			<tr>
 				<td class="ask">Пароль:</td>
-				<td class="answer"><input class="input"></td>
+				<td class="answer"><input class="input" id="password"></td>
 			</tr>
 			<tr>
 				<td class="ask">Подтверждение пароля:</td>
 				<td class="answer"><input class="input"></td>
 			</tr>
 		</table>
-		<button class="save">Сохранить</button>
+		<button class="save" id="saveUser">Сохранить</button>
 	</div>
 </body>
 
 <script src="~/js/AddBook.js"></script>
+<script src="~/js/AddUser.js"></script>
 
 
 </html>

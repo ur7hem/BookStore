@@ -1,6 +1,6 @@
 ﻿namespace BookStoreDb.Db;
 
-public class Author
+public class Author : IEntity<int>
 {
     public int Id { get; set; }
     public string? FirstName { get; set; }

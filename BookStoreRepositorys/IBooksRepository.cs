@@ -5,7 +5,8 @@ namespace BookStoreRepositorys;
 
 public interface IBooksRepository
 {
-    Task AddAsync(string name, string description, string publishingHouse);
-    void Delete(int id);
+    Task AddAsync(Book book);
+    Task DeleteAsync(int id);
     Task<Book[]> GetAllAsync();
+    Task<Book?> GetByIdAsync(int id);
 }

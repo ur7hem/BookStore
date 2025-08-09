@@ -1,6 +1,6 @@
 ﻿namespace BookStoreDb.Db
 {
-    public class Review
+    public class Review : IEntity<int>
     {
         public int Id { get; set; }
         public DateTime Date { get; set; }

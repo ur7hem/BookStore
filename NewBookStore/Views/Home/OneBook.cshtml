@@ -8,6 +8,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="~/css/OneBook.css">
 	<script src="~/js/Carousel.js" defer></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 	<title>Электронная библиотека</title>
 </head>
 <body>
@@ -32,17 +33,15 @@
 				<li class="lis"><img class="image" src="~/jpg/book-2.jpg"></li>
 			</ul>
 		</div>
-		<p>Название книги</p>
-		<p class="p1">
-			Слышали о том, что мысль материальна? Если вам кажется, что в жизни нужно что-то менять, сначала хорошенько это обдумайте, затем вдохновитесь, а потом — решительно действуйте.
-			В голове при этом держите свою цель и позитивный настрой. Чтобы его создать и укрепить, мы собрали огромный список мудрых советов и мотивирующих цитат. Мысли этих людей точно заслуживают внимания, а слова — доверия.
-		</p>
-		<label class="label1">Жанр: Фантастика.</label>
+		<p>@ViewBag.oneBook.Name</p>
+		<p class="p1">@ViewBag.oneBook.Description</p>
+		<label class="label1">Жанр: @ViewBag.oneGenre.GenreName</label>
 		<label class="label1">Серия: О всем.</label>
-		<label class="label1">Издательство: Самиздат 1995 г.</label>
+		<label class="label1">Издательство: @ViewBag.oneBook.PublishingHouse</label>
 		<label class="label1">Автор: Вася</label>
 		<label class="label1">Цена ???</label>
 		<button class="button1" onclick="showPopup()">Заказать книгу</button>
+		<button class="button1" onclick="makeScreenshot()">📸 Сделать скриншот</button>
 	</div>
 	<h2 class="h1">Коментарии</h2>
 	<div class="comment1">
@@ -105,6 +104,29 @@
 		</div>
 	</div>
 	<script src="~/js/OneBook.js"></script>
+
+
+	<script>
+		function makeScreenshot() {
+			const element = document.querySelector('.all'); // захватываем блок книги
+
+			html2canvas(element).then(canvas => {
+				canvas.toBlob(blob => {
+					if (navigator.clipboard && navigator.clipboard.write) {
+						const item = new ClipboardItem({ 'image/png': blob });
+						navigator.clipboard.write([item]).then(() => {
+							alert("Скриншот скопирован в буфер обмена!");
+						}).catch(err => {
+							console.error("Ошибка копирования:", err);
+							alert("Не удалось скопировать скриншот. Возможно, браузер не поддерживает.");
+						});
+					} else {
+						alert("Ваш браузер не поддерживает копирование изображений в буфер обмена.");
+					}
+				});
+			});
+		}
+	</script>
 
 </body>
 

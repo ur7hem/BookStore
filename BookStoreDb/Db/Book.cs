@@ -1,7 +1,7 @@
 ﻿//namespace NewBookStore.Models
 namespace BookStoreDb.Db;
 
-public class Book
+public class Book : IEntity<int>
 {
     public int Id { get; set; }
     public required string Name { get; set; }

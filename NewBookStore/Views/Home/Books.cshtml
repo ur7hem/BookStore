@@ -80,15 +80,14 @@
 	@for (int i = 0; i < ViewBag.Knizka.Length; i++)
 	{
 	<div class="book" id="book">
-		<p>@ViewBag.Knizka[i].Name</p>
+		<p class="id">@ViewBag.Knizka[i].Name</p>
+		<p class="id" id="id">@ViewBag.Knizka[i].Id</p>
 		<img class="image" src="~/jpg/book.jpg">
 		<p class="p1">@ViewBag.Knizka[i].Description</p>
-		<a href="@Url.Action("OneBook", "Home")">О книге</a>
+		<a href="@Url.Action("OneBook", "Home", new { bookId = @ViewBag.Knizka[i].Id })">О книге</a>
 	</div>
 	}
 	</div>
-
-	<script src="~/js/Books.js"></script>
 </body>
 
 </html>

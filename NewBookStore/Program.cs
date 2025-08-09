@@ -11,7 +11,7 @@ class Program
 {
     private static void Main(string[] args)
     {
-        var builder = WebApplication.CreateBuilder(args);
+        WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
         // получаем строку подключения из файла конфигурации
         string connection = builder.Configuration.GetConnectionString("DefaultConnection")
@@ -42,7 +42,7 @@ class Program
                 };
             });
 
-        var app = builder.Build();
+        WebApplication app = builder.Build();
 
         // 👇 Middleware
         if (!app.Environment.IsDevelopment())

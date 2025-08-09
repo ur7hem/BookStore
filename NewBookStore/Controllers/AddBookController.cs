@@ -1,4 +1,5 @@
-﻿using BookStoreRepositorys;
+﻿using BookStoreDb.Db;
+using BookStoreRepositorys;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NewBookStore.Models;
@@ -10,9 +11,11 @@ public class AddBookController : Controller
 {
 
     private readonly IBooksRepository _book;
-    public AddBookController(IBooksRepository book)
+    private readonly IGenreRepository _genre;
+    public AddBookController(IBooksRepository book, IGenreRepository genre)
     {
         _book = book;
+        _genre = genre;
     }
 
 
@@ -20,11 +23,19 @@ public class AddBookController : Controller
     public async Task<IActionResult> addBook([FromBody] AddBook addingBook)
     {
         await _book.AddAsync(
-            addingBook.Name,
-            addingBook.Description,
-            addingBook.PublishingHouse
-            );
+            new Book{
+            Name = addingBook.Name,
+            Description = addingBook.Description,
+            PublishingHouse = addingBook.PublishingHouse,
+            GenreId = addingBook.GenreId,
+            YearOfPublication = addingBook.YearOfPublication
+            });
 
-        return Ok();
+        return Ok(
+            new
+            {
+                message = "Книга добавлена."
+            }
+        );
     }
 }

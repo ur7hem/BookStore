@@ -1,6 +1,6 @@
 ﻿namespace BookStoreDb.Db
 {
-    public class User
+    public class User : IEntity<int>
     {
         public int Id { get; set; }
         public required string UserName { get; set; }

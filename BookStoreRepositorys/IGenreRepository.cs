@@ -1,11 +1,11 @@
-﻿using BookStoreDb;
-namespace BookStoreRepositorys
-{
-    public interface IGenreRepository
-    {
-        void Add(Genre newItem);
-        void Delete(int id);
-        Genre[] GetAll();
+﻿using BookStoreDb.Db;
+namespace BookStoreRepositorys;
 
-    }
+public interface IGenreRepository
+{
+    Task AddAsync(Genre genre);
+    Task DeleteAsync(int id);
+    Task<Genre[]> GetAllAsync();
+    Task<Genre?> GetByIdAsync(int id);
+
 }

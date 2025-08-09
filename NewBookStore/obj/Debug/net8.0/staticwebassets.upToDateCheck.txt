@@ -13,7 +13,7 @@ wwwroot\jpg\download1.jpg
 wwwroot\jpg\my.jpg
 wwwroot\jpg\user.jpg
 wwwroot\js\AddBook.js
-wwwroot\js\Books.js
+wwwroot\js\AddUser.js
 wwwroot\js\BooksData.js
 wwwroot\js\Carousel.js
 wwwroot\js\LogInForm.js

@@ -37,11 +37,11 @@ public class LoginController : Controller
 
     // POST: Login
     [HttpPost]
-    public ActionResult Login([FromBody] LoginRequest request)
+    public async Task<IActionResult> Login([FromBody] LoginRequest request)
     {
 
-        var allUser = _user.GetAll();
-        for (int i = 0; i < allUser.Length; i++)
+        BookStoreDb.Db.User[] allUser = await _user.GetAllAsync();
+        for (int i = 0; i < allUser.Length ; i++)
         {
             if (request.Email == allUser[i].Email)
             {
@@ -53,16 +53,16 @@ public class LoginController : Controller
 
                 if (request.Password == allUser[i].Password)
                 {
-                    var claims = new List<Claim> { new Claim(ClaimTypes.Email, request.Email) };
+                    List<Claim> claims = new List<Claim> { new Claim(ClaimTypes.Email, request.Email) };
                     // создаем JWT-токен
-                    var jwt = new JwtSecurityToken(
+                    JwtSecurityToken jwt = new JwtSecurityToken(
                             issuer: AuthOptions.ISSUER,
                             audience: AuthOptions.AUDIENCE,
                             claims: claims,
                             expires: DateTime.UtcNow.AddMinutes(2),
                             signingCredentials: new SigningCredentials(AuthOptions.GetSymmetricSecurityKey(), SecurityAlgorithms.HmacSha256));
 
-                    var token = new JwtSecurityTokenHandler().WriteToken(jwt);
+                    string token = new JwtSecurityTokenHandler().WriteToken(jwt);
 
                     return Ok(
                         new

@@ -1,6 +1,6 @@
 ﻿namespace BookStoreDb.Db
 {
-    public class OrderHistory
+    public class OrderHistory : IEntity<int>
     {
         public int Id { get; set; }
         public DateTime Date { get; set; }
